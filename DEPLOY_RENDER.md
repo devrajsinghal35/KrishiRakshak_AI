@@ -10,7 +10,7 @@ This guide deploys only the **Next.js app** in `web/` to Render.
 
 ## Prerequisites
 
-1. Code pushed to GitHub: `https://github.com/Prateek9456/swc-ai-engine-clean`
+1. Code pushed to GitHub: `https://github.com/devrajsinghal35/KrishiRakshak_AI`
 2. A **cloud MySQL** database (Render does not host MySQL). Options:
    - [PlanetScale](https://planetscale.com) (MySQL-compatible, free tier)
    - [Railway](https://railway.app) MySQL
@@ -22,7 +22,7 @@ This guide deploys only the **Next.js app** in `web/` to Render.
 ## Option A — Blueprint (recommended)
 
 1. Open [Render Dashboard](https://dashboard.render.com) → **Blueprints** → **New Blueprint Instance**
-2. Connect repo `Prateek9456/swc-ai-engine-clean`
+2. Connect repo `devrajsinghal35/KrishiRakshak_AI`
 3. Render reads `render.yaml` at the repo root and creates **krishi-rakshak-web**
 4. When prompted, set these **secret** environment variables:
 
